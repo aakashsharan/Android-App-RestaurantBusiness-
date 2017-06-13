@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cloud.aakashsharan.restaurantbusiness.ScreenApp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:id="@+id/restaurant_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/indianfood"/>
+
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:background="#01579B"
+            android:text="Tandoori Village Corner" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/locationicon"/>
+
+        <TextView
+            android:id="@+id/address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#01579B"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="9235 Activity Rd # 111, San Diego, CA 92126" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/websiteicon"/>
+
+        <TextView
+            android:id="@+id/website_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#01579B"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="anindianrestaurant.com" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_margin="4dp"
+            android:src="@drawable/timeicon"/>
+
+        <TextView
+            android:id="@+id/open_hours_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#01579B"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Opens at 11:00 AM" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
