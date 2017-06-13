@@ -47,13 +47,8 @@
 
         <TextView
             android:id="@+id/address_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textColor="#01579B"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            android:text="9235 Activity Rd # 111, San Diego, CA 92126" />
+            android:text="9235 Activity Rd # 111, San Diego, CA 92126"
+            style="@style/TextViewStyle"/>
 
     </LinearLayout>
 
@@ -70,13 +65,8 @@
 
         <TextView
             android:id="@+id/website_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textColor="#01579B"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            android:text="anindianrestaurant.com" />
+            android:text="anindianrestaurant.com"
+            style="@style/TextViewStyle"/>
 
     </LinearLayout>
 
@@ -94,13 +84,8 @@
 
         <TextView
             android:id="@+id/open_hours_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:textColor="#01579B"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            android:text="Opens at 11:00 AM" />
+            android:text="Opens at 11:00 AM"
+            style="@style/TextViewStyle"/>
 
     </LinearLayout>
 
